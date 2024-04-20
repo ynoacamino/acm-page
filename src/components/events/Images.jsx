@@ -1,6 +1,5 @@
 'use client';
 
-import { AcmEvent } from '@/data/events';
 import { useGallery } from '@/lib/hooks';
 import Image from 'next/image';
 

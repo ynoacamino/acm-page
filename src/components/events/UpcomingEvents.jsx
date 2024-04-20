@@ -7,7 +7,7 @@ export default function UpcomingEvents(){
     useGallery({ id: 'UpcomingEvents' });
     return(
 
-        <section className="mx-15%" id="upcoming-events">
+        <section className="w-full py-32 border-t border-section flex items-center justify-center px-6" id="upcoming-events">
             <div className="w-full flex flex-col items-center gap-4 max-w-6xl">
                 <h1 className="font-serif font-bold text-5xl text-center">
                     Eventos próximos
@@ -33,7 +33,7 @@ export default function UpcomingEvents(){
                                         key={crypto.randomUUID()}
                                         target="_blank"
                                         rel="noreferrer"
-                                        className=""
+                                        className="hover:scale-105 transition-transform duration-200 ease-in-out"
                                     >
                                         <Image
                                             className="w-full aspect-square bg-web-gray-100 rounded-lg object-cover"
