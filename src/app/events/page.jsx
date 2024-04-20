@@ -1,10 +1,11 @@
 import Calendar from "@/components/events/Calendar";
+import UpcomingEvents from "@/components/events/UpcomingEvents";
 
 export default function EventsPage() {
   return (
     <div>
-      <h1>Events</h1>
         <Calendar />
+        <UpcomingEvents />
     </div>
   );
 }
