@@ -23,7 +23,7 @@ export const UPCOMING_EVENTS: AcmEvent[] = [
             width: 1080,
             height: 1080,
         },
-        link: 'meet.google.com/abc-xyz-123',
+        link: 'https://meet.google.com/suw-kmmp-pzp',
         time: '3:00 PM',
     },
     {

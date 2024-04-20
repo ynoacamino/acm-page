@@ -1,8 +1,12 @@
+'use client'
 import {UPCOMING_EVENTS} from "@/data/events";
 import Image from 'next/image';
 import { CalendarDays, Clock, Presentation } from 'lucide-react';
+import {useGallery} from "@/lib/hooks";
 export default function UpcomingEvents(){
+    useGallery({ id: 'UpcomingEvents' });
     return(
+
         <section className="mx-15%" id="upcoming-events">
             <div className="w-full flex flex-col items-center gap-4 max-w-6xl">
                 <h1 className="font-serif font-bold text-5xl text-center">
