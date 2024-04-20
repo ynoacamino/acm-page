@@ -15,6 +15,7 @@ export default function UpcomingEvents(){
                 <p className="text-xl text-center w-full max-w-2xl mb-24">
                     Puede unirse a cualquiera de nuestros eventos
                 </p>
+
                 <div className="flex flex-col gap-x-10 gap-y-16 md:gap-y-10 mb-3" id="UpcomingEvents">
                     {
                         UPCOMING_EVENTS.slice(0, 4).map(({

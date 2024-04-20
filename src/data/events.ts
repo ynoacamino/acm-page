@@ -79,4 +79,44 @@ export const UPCOMING_EVENTS: AcmEvent[] = [
     },
 ];
 
-export const PAST_EVENTS: AcmEvent[] =[];
+export const PAST_EVENTS: AcmEvent[] =[
+    {
+        title: 'Envenenamiento de parámetros HTTP',
+        date: ['25-11-2023'],
+        description: 'Aprende a detectar y prevenir el envenenamiento de parámetros HTTP con el experto en ciberseguridad',
+        poster: {
+            full: '/images/events/SeguridadOfensiva.png',
+            thumbnail: '/images/events/SeguridadOfensiva.png',
+            width: 1080,
+            height: 1080,
+        },
+        link: 'https://meet.google.com/suw-kmmp-pzp',
+        time: '3:00 PM',
+    },
+    {
+        title: 'Preparación profesional con AWS ACADEMY',
+        date: ['01-12-2023'],
+        description: '¡Potencia tu carrera con AWS Academy! Prepárate para el éxito en la nube.',
+        poster: {
+            full: '/images/poster/22012023-AWS.png',
+            thumbnail: '/images/poster/22012023-AWS.webp',
+            width: 1080,
+            height: 1080,
+        },
+        link: 'meet.google.com/abc-xyz-123',
+        time: '8:30 PM',
+    },
+    {
+        title: 'Preparación profesional con AWS ACADEMY',
+        date: ['01-12-2023'],
+        description: '¡Potencia tu carrera con AWS Academy! Prepárate para el éxito en la nube.',
+        poster: {
+            full: '/images/poster/22012023-AWS.png',
+            thumbnail: '/images/poster/22012023-AWS.webp',
+            width: 1080,
+            height: 1080,
+        },
+        link: 'meet.google.com/abc-xyz-123',
+        time: '8:30 PM',
+    },
+];
