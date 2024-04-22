@@ -9,9 +9,9 @@ import { Switch } from '@headlessui/react'
 
 const navigation = [
   { name: 'About', href: '/about', current: true },
-  { name: 'Members', href: '/members', current: false },
+  { name: 'Members', href: '/team', current: false },
   { name: 'Events', href: '/events', current: false },
-  { name: 'Chapters', href: '/chapters', current: false },
+  { name: 'Committees', href: '/committees', current: false },
 ]
 
 function classNames(...classes) {
