@@ -1,10 +1,14 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+
+import AboutUs from "@/components/home/AboutUs";
+import WhyUs from "@/components/home/WhyUs";
+import Phrases from "@/components/home/Phrases";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      acm page
-    </main>
+    <div>
+        <WhyUs />
+        <Phrases />
+    </div>
+
   );
 }
