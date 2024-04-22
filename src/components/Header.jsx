@@ -1,10 +1,8 @@
 'use client'
 import React from 'react';
 import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import {MoonIcon} from "@heroicons/react/16/solid";
-import { Switch } from '@headlessui/react'
+import { Disclosure } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 
 const navigation = [
@@ -20,10 +18,10 @@ function classNames(...classes) {
 export default function Example() {
 
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="sticky top-0 z-10 bg-gradient-to-br from-black via-blue-700 to-blue-400">
       {({ open }) => (
         <>
-          <div className=" top-0 z-50 bg-gray-800">
+          <div className=" top-0 z-50 bg-opacity-0 ">
           {/*contenedor para los botones, para que tengan su espacio */}
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
             {/*contenedor para poner uno a lado del otro al icono con los botones */}
