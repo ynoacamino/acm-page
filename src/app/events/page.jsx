@@ -5,8 +5,9 @@ import PastEvents from "@/components/events/PastEvents";
 export default function EventsPage() {
   return (
     <div>
-        <Calendar />
+        
         <UpcomingEvents />
+        <Calendar />
         <PastEvents/>
     </div>
   );

@@ -8,7 +8,7 @@ export default function UpcomingEvents() {
     useGallery({ id: 'UpcomingEvents' });
 
     return (
-        <section className="w-full py-32 border-t border-section flex items-center justify-center px-6" id="upcoming-events">
+        <section className="w-full py-20 border-t border-section flex items-center justify-center px-6" id="upcoming-events">
             <div className="w-full flex flex-col items-center gap-4 max-w-6xl">
                 <h1 className="font-serif font-bold text-5xl text-center">Eventos próximos</h1>
                 <p className="text-xl text-center w-full max-w-2xl mb-24">Puede unirse a cualquiera de nuestros eventos</p>
