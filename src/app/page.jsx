@@ -5,6 +5,7 @@ import Phrases from "@/components/home/Phrases";
 export default function Home() {
   return (
     <div>
+        <AboutUs />
         <WhyUs />
         <Phrases />
     </div>
