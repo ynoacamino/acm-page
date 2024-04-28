@@ -2,6 +2,7 @@
 import React, {useState, Fragment} from 'react';
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -70,7 +71,7 @@ export function NavBar() {
                 <div className="flex space-x-4">
                   {currentNavigation.map((item) => (
 
-                      <a
+                      <Link
                           key={item.name}
                           href={item.href}
                           className={classNames(
@@ -83,7 +84,7 @@ export function NavBar() {
                           onClick={() => handleNavigationClick( item.name )}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                   ))}
                 </div>
               </div>
@@ -132,5 +133,4 @@ export function NavBar() {
       )}
     </Disclosure>
   )
-  console.log(navigation)
 }
