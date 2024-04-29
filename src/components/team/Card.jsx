@@ -3,7 +3,7 @@ import Info from "@/components/team/Info"
 import Social from "@/components/team/Social"
 
 export default function Card ({srcImg, nombre, cargo, redes}) {
-    let style = "md:w-1/3 lg:w-1/5 2xl:w-1/6 w-[60%] 3xl:p-[20px]";
+    let style = "md:w-1/3 lg:w-1/5 2xl:w-1/6 w-[60%] 3xl:p-[20px] w-[50%]";
 
     return (
         <div className={style}>
