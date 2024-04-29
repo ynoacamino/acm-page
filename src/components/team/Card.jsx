@@ -18,7 +18,7 @@ export default function Card ({srcImg, nombre, cargo, redes}) {
 }
 
 export function Container ({srcImg, nombre, cargo, redes}) {
-    let style = "group bg-lime-50 py-7 px-0 pb-12 text-center overflow-hidden relative rounded-xl";
+    let style = "group bg-[rgba(0,48,77,0.5)]  py-7 px-0 pb-8 2xl:pb-12 text-center overflow-hidden relative rounded-xl shadow-md shadow-[rgba(0,86,135,0.5)]";
 
     return (
         <div className={style}>
@@ -39,7 +39,7 @@ export function Container ({srcImg, nombre, cargo, redes}) {
 }
 
 export function SocialContainer ({redes}) {
-    let style = "w-full p-0 m-0 bg-neutral-700 absolute bottom-[-100px] left-0 transition-all duration-500 ease-in-out group-hover:bottom-0"
+    let style = "w-full p-0 m-0 bg-[radial-gradient(circle,rgba(0,48,77,1)_0%,rgba(0,11,18,1)_100%)] absolute bottom-[-100px] left-0 transition-all duration-500 ease-in-out group-hover:bottom-0 "
     return (
         <ul className={style}>
             <Social
