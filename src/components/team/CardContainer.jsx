@@ -127,7 +127,7 @@ const listaTeam = [
 
 
 export default function CardContainer() {
-    let style = "flex flex-row flex-wrap gap-10 items-center justify-center"
+    let style = "flex flex-row flex-wrap gap-14 items-center justify-center"
 
     return (
         <div className={style}>

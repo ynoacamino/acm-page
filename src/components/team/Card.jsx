@@ -3,7 +3,7 @@ import Info from "@/components/team/Info"
 import Social from "@/components/team/Social"
 
 export default function Card ({srcImg, nombre, cargo, redes}) {
-    let style = "md:w-1/3 lg:w-1/4 w-[60%] ";
+    let style = "md:w-1/3 lg:w-1/4 2xl:w-1/5 w-[60%] 3xl:p-[20px]";
 
     return (
         <div className={style}>
@@ -18,7 +18,7 @@ export default function Card ({srcImg, nombre, cargo, redes}) {
 }
 
 export function Container ({srcImg, nombre, cargo, redes}) {
-    let style = "group bg-lime-50 py-7 px-0 pb-14 mb-8 text-center overflow-hidden relative rounded-xl";
+    let style = "group bg-lime-50 py-7 px-0 pb-12 text-center overflow-hidden relative rounded-xl";
 
     return (
         <div className={style}>
