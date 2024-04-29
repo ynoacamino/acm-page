@@ -1,6 +1,30 @@
 import Card from "@/components/team/Card"
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
+
+
+
+export default function CardContainer() {
+    let style = "flex flex-row flex-wrap gap-14 items-center justify-center"
+
+    return (
+        <div className={style}>
+            {listaTeam.map((persona, index) => (
+                <Card
+                    key={index}
+                    srcImg={persona.srcImg}
+                    nombre={persona.nombre}
+                    cargo={persona.cargo}
+                    redes={persona.redes}
+                />
+            ))}
+        </div>
+    );
+}
+
+
+
+
 const listaTeam = [
     {
         srcImg: "/images/team/ChambillaPerca_ValentinaMilagros_Presidente_JuntaDirectiva.png",
@@ -124,22 +148,3 @@ const listaTeam = [
         }
     }
 ];
-
-
-export default function CardContainer() {
-    let style = "flex flex-row flex-wrap gap-14 items-center justify-center"
-
-    return (
-        <div className={style}>
-            {listaTeam.map((persona, index) => (
-                <Card
-                    key={index}
-                    srcImg={persona.srcImg}
-                    nombre={persona.nombre}
-                    cargo={persona.cargo}
-                    redes={persona.redes}
-                />
-            ))}
-        </div>
-    );
-}
