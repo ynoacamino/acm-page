@@ -3,8 +3,9 @@ import React from "react";
 export default function Vision() {
     return(
         <>
-            <div className="container-section pt-14">
-                <div className="container-vision-mision flex flex-col md:flex-row items-center mx-auto justify-center">
+            <div className="container-section">
+                <div className="transform container-vision-mision flex flex-col md:flex-row items-center justify-center
+                 rounded-3xl border-4 border-indigo-500/100 transition duration-500 hover:scale-105  p-6 mx-16 mb-16" >
                     <figure className="max-w-lg">
                         <img className="h-auto max-w-full rounded-lg" src="/images/about/vision.png"
                              alt="image description"/>
