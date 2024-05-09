@@ -4,7 +4,7 @@ import '../../styles/home/globals.css';
 
 export default function WhyUs() {
   return (
-    <main className="bg-gradient-to-br from-black via-blue-700 to-blue-400 min-h-screen p-4">
+    <main className="min-h-screen p-4">
       <section className="mx-auto max-w-7xl flex flex-col items-center justify-center text-center">
         <span></span>
         <h1 className="text-6xl font-medium text-white my-8">Why Join Us? </h1>
