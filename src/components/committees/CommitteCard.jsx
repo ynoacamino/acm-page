@@ -7,15 +7,15 @@ import {COMITES} from "@/data/comites";
 const CommitteCard = (props) => {
 	return (
 		<div
-			className="bg-white relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-sm p-3 max-w-xs md:max-w-3xl mx-auto border border-sky-300">
+			className="bg-white relative md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-sm p-3 max-w-xs md:max-w-3xl mx-auto border border-sky-300">
 
 
-			<div className="w-full bg-white flex flex-col">
+			<div className="w-full bg-white">
 				{COMITES.slice(0,6).map(({name, description, image}) => (
-					<>
-						<div className="w-full flex flex-row bg-white place-items-center pb-16 pl-1">
-							<img src={image} alt="committee image" className="rounded-xl"/>
-							<div className="w-full pl-10">
+					<div key={crypto.randomUUID()}>
+						<article className="flex md:flex-row flex-col bg-white place-items-center pb-16 md:pl-1">
+							<img src={image} alt="committee image" className="rounded-xl pb-5"/>
+							<div className="w-full flex flex-col pl-10">
 								<h3 className="font-black text-gray-800 md:text-3xl text-xl">{name}</h3>
 								<p className="md:text-lg text-gray-500 text-base">
 									{description}</p>
@@ -42,10 +42,10 @@ const CommitteCard = (props) => {
 								</div>
 							</div>
 
-						</div>
+						</article>
 
 
-					</>
+					</div>
 				))}
 
 			</div>
