@@ -1,9 +1,6 @@
 import Card from "@/components/team/Card"
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-
-
-
 export default function CardContainer() {
     let style = "flex flex-row flex-wrap gap-10 items-center justify-center m-[2%] "
 

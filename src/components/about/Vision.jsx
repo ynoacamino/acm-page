@@ -13,9 +13,9 @@ export default function Vision() {
                     <div className="container-text md:w-1/2 md:pr-8">
                         <h3 className="text-2xl font-bold mb-4">Vision</h3>
                         <p className="text-lg">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tenetur sequi nam aperiam
-                            corporis cum quia excepturi aliquid, dolor ab iste atque aut blanditiis enim! Libero nam qui
-                            voluptates tempore.
+                            Ser el referente en la promoción de la pasión por la informática y la tecnología entre los
+                            estudiantes, brindando un espacio de aprendizaje innovador y colaborativo que impulse el
+                            crecimiento y el éxito en el ámbito tecnológico.
                         </p>
                     </div>
                 </div>

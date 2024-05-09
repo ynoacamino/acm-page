@@ -9,9 +9,9 @@ export default function Mision() {
                     <div className="container-text md:w-1/2 md:pr-8">
                         <h3 className="text-2xl font-bold mb-4">Misión</h3>
                         <p className="text-lg">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tenetur sequi nam aperiam
-                            corporis cum quia excepturi aliquid, dolor ab iste atque aut blanditiis enim! Libero nam qui
-                            voluptates tempore.
+                            Fomentar el interés y la participación de los estudiantes en el campo de la informática y
+                            la tecnología, ofreciendo oportunidades de aprendizaje y desarrollo profesional a través de
+                            actividades y eventos relacionados con la computación.
                         </p>
                     </div>
 
