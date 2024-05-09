@@ -5,9 +5,6 @@ export default function CommitteesPage() {
     <div>
       <div className="flex flex-col justify-center py-10 space-y-10">
         <CommitteCard />
-        <CommitteCard />
-        <CommitteCard />
-        <CommitteCard />
       </div>
     </div>
   );
