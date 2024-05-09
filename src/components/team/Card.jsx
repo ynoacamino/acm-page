@@ -43,14 +43,6 @@ export function SocialContainer ({redes}) {
     return (
         <ul className={style}>
             <Social
-                nombreRed="fab fa-facebook"
-                hRef={redes.facebook}
-            />
-            <Social
-                nombreRed="fab fa-twitter"
-                hRef={redes.twitter}
-            />
-            <Social
                 nombreRed="far fa-envelope"
                 hRef={redes.gmail}
             />
