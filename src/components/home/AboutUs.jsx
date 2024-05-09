@@ -12,19 +12,23 @@ export default function AboutUs() {
       </section>
       <section style={{ marginTop: "4rem" }} className="flex flex-col md:flex-row" >
         <div className="md:w-2/5">
-          <h3 className="text-lg md:text-xl lg:text-2xl font-semibold mb-2 flex flex-col items-center justify-center h-full ">
-            <a className="underline decoration-neutral-400 decoration-4">
+          <h3 className="text-lg md:text-xl lg:text-2xl font-semibold mb-2 flex flex-col items-center h-full ">
+            <p className="underline decoration-neutral-400 decoration-4 md:mt-20%">
             Pioneering the edges of innovation, forging tomorrow's breakthroughs
             today.
-            </a>
+            </p>
             <section style={{ marginTop: "4rem" }}>
-            <button className="transition ease-in-out delay-150 bg-indigo-600 shadow-lg shadow-indigo-900/50 px-8 py-4 rounded-xl hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 cursor-pointer ...">About Us</button>
+            <a className="transition ease-in-out delay-150 bg-indigo-600 shadow-lg shadow-indigo-900/50 px-8 py-4
+            rounded-xl hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 cursor-pointer mb-26"
+            href="/about">
+              About Us
+            </a>
             </section>
             
           </h3>
           
         </div>
-        <div className="md:w-3/5">
+        <div className="md:w-3/5 ">
           <div className="carousel w-full">
             <div id="slide1" className="carousel-item relative w-full">
               <Image src="/images/home/acmunsa.png" alt="Innovate" width={878} height={426}   className="w-full rounded-lg"/>
