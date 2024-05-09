@@ -34,7 +34,7 @@ export function NavBar() {
   };
   console.log(currentNavigation);
   return (
-    <Disclosure as="nav" className="sticky top-0 z-10 bg-gradient-to-br from-black via-blue-700 to-blue-400">
+    <Disclosure as="nav" className="sticky top-0 z-10 bg-gray-800">
       {({ open }) => (
         <>
           <div className=" top-0 z-50 bg-opacity-0 ">
