@@ -19,7 +19,7 @@ export default function AboutUs() {
             </p>
             <section style={{ marginTop: "4rem" }}>
             <a className="transition ease-in-out delay-150 bg-indigo-600 shadow-lg shadow-indigo-900/50 px-8 py-4
-            rounded-xl hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 cursor-pointer"
+            rounded-xl hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 cursor-pointer mb-26"
             href="/about">
               About Us
             </a>
@@ -28,7 +28,7 @@ export default function AboutUs() {
           </h3>
           
         </div>
-        <div className="md:w-3/5">
+        <div className="md:w-3/5 ">
           <div className="carousel w-full">
             <div id="slide1" className="carousel-item relative w-full">
               <Image src="/images/home/acmunsa.png" alt="Innovate" width={878} height={426}   className="w-full rounded-lg"/>
