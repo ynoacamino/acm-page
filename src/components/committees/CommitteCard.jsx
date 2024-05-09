@@ -19,13 +19,10 @@ const CommitteCard = (props) => {
 								<h3 className="font-black  md:text-3xl text-xl">{name}</h3>
 								<p className="md:text-lg text-gray-500 text-base">
 									{description}</p>
-								{/* <p className="text-xl font-black text-gray-800">
-					read more...
-				</p> */}
 								<hr className=" border-t border-gray-300"></hr>
 								<div className="flex justify-between items-center pt-5">
 									<div className="flex item-center space-x-2">
-
+										{/*
 										<ButtonLink url="#">
 											<IconDiscord width="2rem"/>
 										</ButtonLink>
@@ -34,7 +31,7 @@ const CommitteCard = (props) => {
 										</ButtonLink>
 										<ButtonLink url="#">
 											<IconYoutube width="2rem"/>
-										</ButtonLink>
+										</ButtonLink>*/}
 									</div>
 
 								</div>
