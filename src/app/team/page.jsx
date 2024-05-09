@@ -1,9 +1,10 @@
 import CardContainer from "@/components/team/CardContainer"
+import Equipo from "@/components/team/Equipo"
 
 export default function TeamPage() {
   return (
     <div>
-      <h1>Team</h1>
+      <Equipo/>
       <CardContainer/>
     </div>
   )

@@ -1,8 +1,10 @@
 'use client'
+
 import React, {useState, Fragment} from 'react';
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link';
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -12,10 +14,10 @@ export function NavBar() {
 
   const [currentNavigation, setCurrentNavigation] = useState([
     {name: 'Home', href:'/', current: true},
-    { name: 'About', href: '/about', current: false },
-    { name: 'Members', href: '/members', current: false },
+    { name: 'About', href: '/about', current: true },
+    { name: 'Members', href: '/team', current: false },
     { name: 'Events', href: '/events', current: false },
-    { name: 'Chapters', href: '/chapters', current: false },
+    { name: 'Committees', href: '/committees', current: false },
   ]);
   console.log(currentNavigation)
   //const [currentNavigation, setCurrentNavigation] = useState(navigation);

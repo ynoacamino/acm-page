@@ -4,13 +4,13 @@ import '../../styles/home/globals.css';
 
 export default function WhyUs() {
   return (
-    <main className="bg-gradient-to-br from-black via-blue-700 to-blue-400 min-h-screen p-4">
+    <main className="min-h-screen p-4">
       <section className="mx-auto max-w-7xl flex flex-col items-center justify-center text-center">
         <span></span>
         <h1 className="text-6xl font-medium text-white my-8">Why Join Us? </h1>
         <span></span>
 
-        <div className="grid grid-cols-3 gap-4">
+        <div className="w-full xl:grid grid-cols-3 gap-4 sm:flex flex-wrap">
           <div className="relative rounded-2.5xl border border-blue-700 bg-blue-700 p-8 pt-10 transition-shadow hover:shadow-xl hover:border-white">
             <div className="flex items-center justify-center">
               <Image src="/images/home/reason1.png" alt="Innovate" width={100} height={100} />

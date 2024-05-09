@@ -6,28 +6,28 @@ import "./Footer.css";
 
 export function Footer(){
   return (
-    <footer className="">
+    <footer className="bg-gray-800">
       <div className="internalFooter">
         <img
           src="/ACM-logo.png"
           alt="Logo ACM"
           className=""
         />
-        <div className="rightFooter">
+        <div className="rightFooter text-white">
           <div className="leftColumnFooter">
             <h1 style={{marginBottom: '6px'}}>
               Navegación
             </h1>
-            <a href="/" className="underline">
+            <a href="/" className="underline text-white">
               Inicio
             </a>
-            <a href="/about" className="underline">
+            <a href="/about" className="underline text-white">
               Acerca de
             </a>
-            <a href="/events" className="underline">
+            <a href="/events" className="underline text-white">
               Eventos
             </a>
-            <a href="/team" className="underline">
+            <a href="/team" className="underline text-white">
               Equipo
             </a>
           </div>
