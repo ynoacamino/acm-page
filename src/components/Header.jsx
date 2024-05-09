@@ -13,8 +13,8 @@ function classNames(...classes) {
 export function NavBar() {
 
   const [currentNavigation, setCurrentNavigation] = useState([
-    {name: 'Home', href:'/', current: true},
-    { name: 'About', href: '/about', current: true },
+    {name: 'Home', href:'/', current: false},
+    { name: 'About', href: '/about', current: false },
     { name: 'Members', href: '/team', current: false },
     { name: 'Events', href: '/events', current: false },
     { name: 'Committees', href: '/committees', current: false },
