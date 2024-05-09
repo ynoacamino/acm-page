@@ -10,7 +10,7 @@ export default function WhyUs() {
         <h1 className="text-6xl font-medium text-white my-8">Why Join Us? </h1>
         <span></span>
 
-        <div className="grid grid-cols-3 gap-4">
+        <div className="w-full xl:grid grid-cols-3 gap-4 sm:flex flex-wrap">
           <div className="relative rounded-2.5xl border border-blue-700 bg-blue-700 p-8 pt-10 transition-shadow hover:shadow-xl hover:border-white">
             <div className="flex items-center justify-center">
               <Image src="/images/home/reason1.png" alt="Innovate" width={100} height={100} />
