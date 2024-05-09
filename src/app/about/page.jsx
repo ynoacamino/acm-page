@@ -1,8 +1,11 @@
+import Mision from "@/components/about/Mision";
+import Vision from "@/components/about/Vision";
+
 export default function AboutPage() {
   return (
     <div>
-      <h1>About</h1>
-      <p>This is the about page</p>
+        <Mision/>
+        <Vision/>
     </div>
   );
 }
