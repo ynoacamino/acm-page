@@ -7,7 +7,7 @@ export default function WhyUs() {
     <main className="bg-gradient-to-br from-black via-blue-700 to-blue-400 max-h-screen p-4">
       <section className="mx-auto max-w-7xl mt-4 mb-4 grid grid-cols-1 gap-10">
 
-        <div className="relative rounded-2.5xl border border-blue-700 bg-blue-700 p-6 pt-8 transition-shadow hover:shadow-xl mb-4 flex items-center">
+        <div className="relative rounded-2.5xl border border-blue-700 bg-blue-700 p-6 pt-8 transition-shadow hover:shadow-xl mb-4 flex flex-wrap items-center">
           <div className="mr-4">
             <Image src="/images/home/AlanKay.jpg" alt="Left Image" width={100} height={100} className="rounded-full object-cover w-20 h-20" />
           </div>
@@ -21,7 +21,7 @@ export default function WhyUs() {
           </div>
         </div>
 
-        <div className="relative rounded-2.5xl border border-blue-700 bg-blue-700 p-6 pt-8 transition-shadow hover:shadow-xl mb-4 flex items-center">
+        <div className="relative rounded-2.5xl border border-blue-700 bg-blue-700 p-6 pt-8 transition-shadow hover:shadow-xl mb-4 flex flex-wrap items-center">
           <div className="mr-4">
             <Image src="/images/home/MariaKlawe.jpg" alt="Left Image" width={100} height={100} className="rounded-full object-cover w-20 h-20" />
           </div>
@@ -35,7 +35,7 @@ export default function WhyUs() {
           </div>
         </div>
 
-        <div className="relative rounded-2.5xl border border-blue-700 bg-blue-700 p-6 pt-8 transition-shadow hover:shadow-xl mb-4 flex items-center">
+        <div className="relative rounded-2.5xl border border-blue-700 bg-blue-700 p-6 pt-8 transition-shadow hover:shadow-xl mb-4 flex flex-wrap items-center">
           <div className="mr-4">
             <Image src="/images/home/GradyBooch.jpg" alt="Left Image" width={100} height={100} className="rounded-full object-cover w-20 h-20" />
           </div>
