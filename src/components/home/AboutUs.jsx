@@ -4,15 +4,15 @@ import "../../styles/home/globals.css";
 
 export default function AboutUs() {
   return (
-    <main className="bg-gradient-to-br from-black via-blue-700 to-blue-400 max-h-screen p-4">
+    <main className="max-h-screen p-4">
       <section style={{ marginTop: "2rem" }}>
         <div className="md:w-full mb-4">
-          <h1 className="text-6xl font-bold text-white mt-8 text-center">ACM STUDENT CHAPTER</h1>
+          <h1 className="text-6xl font-bold mt-8 text-center">ACM STUDENT CHAPTER</h1>
         </div>
       </section>
       <section style={{ marginTop: "4rem" }} className="flex flex-col md:flex-row" >
         <div className="md:w-2/5">
-          <h3 className="text-lg md:text-xl lg:text-2xl font-semibold text-white mb-2 flex flex-col items-center justify-center h-full ">
+          <h3 className="text-lg md:text-xl lg:text-2xl font-semibold mb-2 flex flex-col items-center justify-center h-full ">
             <a className="underline decoration-neutral-400 decoration-4">
             Pioneering the edges of innovation, forging tomorrow's breakthroughs
             today.
