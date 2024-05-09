@@ -1,11 +1,35 @@
 import Card from "@/components/team/Card"
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
+
+
+export default function CardContainer() {
+    let style = "flex flex-row flex-wrap gap-10 items-center justify-center m-[2%] "
+
+    return (
+        <div className={style}>
+            {listaTeam.map((persona, index) => (
+                <Card
+                    key={index}
+                    srcImg={persona.srcImg}
+                    nombre={persona.nombre}
+                    cargo={persona.cargo}
+                    redes={persona.redes}
+                />
+            ))}
+        </div>
+    );
+}
+
+
+
 
 const listaTeam = [
     {
-        srcImg: "https://images.vexels.com/media/users/3/147101/isolated/preview/b4a49d4b864c74bb73de63f080ad7930-bot-n-de-perfil-de-instagram.png",
-        nombre: "Persona 1",
-        cargo: "Presidente",
+        srcImg: "/images/team/ChambillaPerca_ValentinaMilagros_Presidente_JuntaDirectiva.png",
+        nombre: "Valentina Milagros Chambilla Perca",
+        cargo: "Presidente del Capítulo Estudiantil",
         redes: {
             facebook: "",
             twitter: "",
@@ -14,9 +38,9 @@ const listaTeam = [
         }
     },
     {
-        srcImg: "https://images.vexels.com/media/users/3/147101/isolated/preview/b4a49d4b864c74bb73de63f080ad7930-bot-n-de-perfil-de-instagram.png",
-        nombre: "Persona 2",
-        cargo: "Esclavo",
+        srcImg: "/images/team/MamaniMamani_AlexisBaltazar_Vicepresidente_JuntaDirectiva.png",
+        nombre: "Alexis Baltazar Mamani Mamani",
+        cargo: "Vicepresidente de la Junta Directiva",
         redes: {
             facebook: "",
             twitter: "",
@@ -25,9 +49,9 @@ const listaTeam = [
         }
     },
     {
-        srcImg: "https://images.vexels.com/media/users/3/147101/isolated/preview/b4a49d4b864c74bb73de63f080ad7930-bot-n-de-perfil-de-instagram.png",
-        nombre: "Persona 3",
-        cargo: "Esclavo",
+        srcImg: "/images/team/MolloChuquicaña_DollyYadhira_Secretaria_JuntaDirectiva.png",
+        nombre: "Dolly Yadhira Mollo Chuquicaña",
+        cargo: "Secretaria de la Junta Directiva",
         redes: {
             facebook: "",
             twitter: "",
@@ -36,9 +60,9 @@ const listaTeam = [
         }
     },
     {
-        srcImg: "https://images.vexels.com/media/users/3/147101/isolated/preview/b4a49d4b864c74bb73de63f080ad7930-bot-n-de-perfil-de-instagram.png",
-        nombre: "Persona 4",
-        cargo: "Esclavo",
+        srcImg: "/images/team/AbrilNoñuncay_ChristianJesus_Presidente_Videojuegos.png",
+        nombre: "Christian Jesus Abril Noñuncay",
+        cargo: "Presidente de Videjuegos",
         redes: {
             facebook: "",
             twitter: "",
@@ -47,9 +71,9 @@ const listaTeam = [
         }
     },
     {
-        srcImg: "https://images.vexels.com/media/users/3/147101/isolated/preview/b4a49d4b864c74bb73de63f080ad7930-bot-n-de-perfil-de-instagram.png",
-        nombre: "Persona 5",
-        cargo: "Esclavo",
+        srcImg: "/images/team/MestasZegarra_ChristianRaul_Vicepresidente_Videojuegos.png",
+        nombre: "Christian Raul Mestas Zegarra",
+        cargo: "Vicepresidente de Videjuegos",
         redes: {
             facebook: "",
             twitter: "",
@@ -58,9 +82,9 @@ const listaTeam = [
         }
     },
     {
-        srcImg: "https://images.vexels.com/media/users/3/147101/isolated/preview/b4a49d4b864c74bb73de63f080ad7930-bot-n-de-perfil-de-instagram.png",
-        nombre: "Persona 6",
-        cargo: "Esclavo",
+        srcImg: "/images/team/.png",
+        nombre: "Joe Jhony Cuadros Amanqui",
+        cargo: "Presidente de Desarrollo Web",
         redes: {
             facebook: "",
             twitter: "",
@@ -69,9 +93,9 @@ const listaTeam = [
         }
     },
     {
-        srcImg: "https://images.vexels.com/media/users/3/147101/isolated/preview/b4a49d4b864c74bb73de63f080ad7930-bot-n-de-perfil-de-instagram.png",
-        nombre: "Persona 6",
-        cargo: "Esclavo",
+        srcImg: "/images/team/ValeraYana_JeanpierMichaelson_Vicepresidente_DesarrolloWeb.png",
+        nombre: "Jeanpier Michael Valera Yana",
+        cargo: "Vicepresidente de Desarrollo Web",
         redes: {
             facebook: "",
             twitter: "",
@@ -80,9 +104,42 @@ const listaTeam = [
         }
     },
     {
-        srcImg: "https://images.vexels.com/media/users/3/147101/isolated/preview/b4a49d4b864c74bb73de63f080ad7930-bot-n-de-perfil-de-instagram.png",
-        nombre: "Persona 6",
-        cargo: "Esclavo",
+        srcImg: "/images/team/MamaniUscamayta_AgustinDavid_Presidente_DesarrolloDeSoftware.png",
+        nombre: "Agustín David Mamani Uscamayta",
+        cargo: "Presidente de Desarrollo de Software",
+        redes: {
+            facebook: "",
+            twitter: "",
+            gmail: "",
+            linkedin: ""
+        }
+    },
+    {
+        srcImg: "/images/team/MarronCarcausto_DanielEnrique_Presidente_Ciberseguridad.png",
+        nombre: "Daniel Enrique Marron Carcausto",
+        cargo: "Presidente de Ciberseguridad",
+        redes: {
+            facebook: "",
+            twitter: "",
+            gmail: "",
+            linkedin: ""
+        }
+    },
+    {
+        srcImg: "/images/team/TaparaQuispe_FabiolaGrissel_Presidente_InteligenciaArtificial.png",
+        nombre: "Fabiola Grisel Tapara Quispe",
+        cargo: "Presidente de Inteligencia Artificial",
+        redes: {
+            facebook: "",
+            twitter: "",
+            gmail: "",
+            linkedin: ""
+        }
+    },
+    {
+        srcImg: "/images/team/CondoriAnahua_Graciela_VicePresidente_InteligenciaArtificial.png",
+        nombre: "Graciela Condori Anahua",
+        cargo: "Vicepresidente de Inteligencia Artificial",
         redes: {
             facebook: "",
             twitter: "",
@@ -91,24 +148,3 @@ const listaTeam = [
         }
     }
 ];
-
-
-export default function CardContainer() {
-    return (
-        <div className="container-cards">
-            <div class="container">
-                <div class="row">
-                    {listaTeam.map((persona, index) => (
-                        <Card
-                            key={index}
-                            srcImg={persona.srcImg}
-                            nombre={persona.nombre}
-                            cargo={persona.cargo}
-                            redes={persona.redes}
-                        />
-                    ))}
-                </div>
-            </div>
-        </div>
-    );
-}
