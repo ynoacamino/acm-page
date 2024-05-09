@@ -27,20 +27,9 @@ const CommitteCard = (props) => {
 				<hr className=" border-t border-gray-300"></hr>
 				<div className="flex justify-between items-center">
 					<div className="flex item-center space-x-2">
-						<ButtonLink url="#">
-							<IconFacebookFilled width="2rem" />
-						</ButtonLink>
-						<ButtonLink url="#">
-							<IconGitHubFilled width="2rem" />
-						</ButtonLink>
+						
 						<ButtonLink url="#">
 							<IconDiscord width="2rem" />
-						</ButtonLink>
-						<ButtonLink url="#">
-							<IconInstagramFilled width="2rem" />
-						</ButtonLink>
-						<ButtonLink url="#">
-							<IconTwitch width="2rem" />
 						</ButtonLink>
 						<ButtonLink url="#">
 							<IconWhatsapp width="2rem" />
