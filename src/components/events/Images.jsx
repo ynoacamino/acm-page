@@ -18,13 +18,12 @@ export function Images({ PHOTOS, id }) {
                     rel="noreferrer"
                     className="hover:scale-105 transition-transform duration-200 ease-in-out"
                 >
-                    <Image
+                    <img
                         key={crypto.randomUUID()}
                         className="aspect-square w-full rounded-lg bg-web-gray-100 object-cover"
                         src={poster.thumbnail}
                         alt={title}
-                        width={600}
-                        height={600}
+
                     />
                 </a>
             ))}

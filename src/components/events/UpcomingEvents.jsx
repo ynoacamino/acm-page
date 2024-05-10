@@ -26,13 +26,12 @@ export default function UpcomingEvents() {
                                     className="hover:scale-105 transition-transform duration-200 ease-in-out"
 
                                 >
-                                    <Image
-                                        className="w-full aspect-square bg-web-gray-100 rounded-lg object-cover"
+                                    <img
+                                        className="aspect-square bg-web-gray-100 rounded-lg object-cover w-full
+                                        h-[450px]"
                                         src={poster.thumbnail}
                                         alt={title}
-                                        width={600}
-                                        height={600}
-                                        priority={true}
+
                                     />
                                 </a>
                                 <div className="flex flex-col gap-2 col-span-1 md:col-span-2 max-w-2xl">

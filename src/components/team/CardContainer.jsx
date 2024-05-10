@@ -79,7 +79,7 @@ const listaTeam = [
         }
     },
     {
-        srcImg: "/images/team/PlaceholderJoe.png",
+        srcImg: "/images/team/PlaceholderJoe.jpg",
         nombre: "Joe Jhony Cuadros Amanqui",
         cargo: "Presidente de Desarrollo Web",
         redes: {
