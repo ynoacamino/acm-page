@@ -46,7 +46,7 @@ const listaTeam = [
         }
     },
     {
-        srcImg: "/images/team/MolloChuquicaña_DollyYadhira_Secretaria_JuntaDirectiva.png",
+        srcImg: "/images/team/MolloChuquicana_DollyYadhira_Secretaria_JuntaDirectiva.png",
         nombre: "Dolly Yadhira Mollo Chuquicaña",
         cargo: "Secretaria de la Junta Directiva",
         redes: {
@@ -57,7 +57,7 @@ const listaTeam = [
         }
     },
     {
-        srcImg: "/images/team/AbrilNoñuncay_ChristianJesus_Presidente_Videojuegos.png",
+        srcImg: "/images/team/AbrilNonuncay_ChristianJesus_Presidente_Videojuegos.png",
         nombre: "Christian Jesus Abril Noñuncay",
         cargo: "Presidente de Videjuegos",
         redes: {
@@ -79,7 +79,7 @@ const listaTeam = [
         }
     },
     {
-        srcImg: "/images/team/.png",
+        srcImg: "/images/team/PlaceholderJoe.png",
         nombre: "Joe Jhony Cuadros Amanqui",
         cargo: "Presidente de Desarrollo Web",
         redes: {

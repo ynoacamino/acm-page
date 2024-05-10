@@ -9,7 +9,7 @@ export default function WhyUs() {
 
         <div className="relative rounded-2.5xl bg-gray-800 p-6 pt-8 transition-shadow hover:shadow-xl mb-4 flex flex-wrap items-center">
           <div className="mr-4">
-            <Image src="/images/home/AlanKay.jpg" alt="Left Image" width={100} height={100} className="rounded-full object-cover w-20 h-20" />
+            <img src="/images/home/AlanKay.jpg" alt="Left Image" className="rounded-full object-cover w-[100px] h-[100px]" />
           </div>
           <div>
             <p className="text-lg font-bold leading-relaxed text-white">
@@ -23,7 +23,7 @@ export default function WhyUs() {
 
         <div className="relative rounded-2.5xl bg-gray-800 p-6 pt-8 transition-shadow hover:shadow-xl mb-4 flex flex-wrap items-center">
           <div className="mr-4">
-            <Image src="/images/home/GradyBooch.jpg" alt="Left Image" width={100} height={100} className="rounded-full object-cover w-20 h-20" />
+            <img src="/images/home/GradyBooch.jpg" alt="Left Image" className="rounded-full object-cover w-[100px] h-[100px]" />
           </div>
           <div>
             <p className="text-lg font-bold leading-relaxed text-white">

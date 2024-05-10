@@ -13,7 +13,7 @@ export default function WhyUs() {
         <div className="w-full xl:grid grid-cols-3 gap-4 sm:flex flex-wrap">
           <div className="relative rounded-2.5xl p-8 pt-10 transition-shadow hover:shadow-xl hover:border-white">
             <div className="flex items-center justify-center">
-              <Image src="/images/home/reason1.png" alt="Innovate" width={100} height={100} />
+              <img src="/images/home/reason1.png" alt="Innovate" className="w-[100px] h-[100px]"/>
             </div>
             <h3 className="text-lg font-semibold mt-4 mb-2">Advanced Learning Opportunities</h3>
             <p className="text-base leading-relaxed ">
@@ -24,7 +24,7 @@ export default function WhyUs() {
 
           <div className="relative rounded-2.5xl p-8 pt-10 transition-shadow hover:shadow-xl hover:border-white">
             <div className="flex items-center justify-center">
-              <Image src="/images/home/reason2.png" alt="Innovate" width={100} height={100} />
+              <img src="/images/home/reason2.png" alt="Innovate" className="w-[100px] h-[100px]" />
             </div>
             <h3 className="text-lg font-semibold mt-4 mb-2">Supportive Collaboration Network</h3>
             <p className="text-base leading-relaxed">
@@ -34,7 +34,7 @@ export default function WhyUs() {
 
           <div className="relative rounded-2.5xl p-8 pt-10 transition-shadow hover:shadow-xl hover:border-white">
             <div className="flex items-center justify-center">
-              <Image src="/images/home/reason3.png" alt="Innovate" width={100} height={100} />
+              <img src="/images/home/reason3.png" alt="Innovate" className="w-[100px] h-[100px]"/>
             </div>
             <h3 className="text-lg font-semibold mt-4 mb-2">Professional Preparation</h3>
             <p className="text-base leading-relaxed">
@@ -44,7 +44,7 @@ export default function WhyUs() {
 
           <div className="relative rounded-2.5xl p-8 pt-10 transition-shadow hover:shadow-xl hover:border-white">
             <div className="flex items-center justify-center">
-              <Image src="/images/home/reason4.png" alt="Innovate" width={100} height={100} />
+              <img src="/images/home/reason4.png" alt="Innovate" className="w-[100px] h-[100px]" />
             </div>
             <h3 className="text-lg font-semibold mt-4 mb-2">Exclusive Resource Access</h3>
             <p className="text-base leading-relaxed">
@@ -54,7 +54,7 @@ export default function WhyUs() {
 
           <div className="relative rounded-2.5xlp-8 pt-10 transition-shadow hover:shadow-xl hover:border-white">
             <div className="flex items-center justify-center">
-              <Image src="/images/home/reason5.png" alt="Innovate" width={100} height={100} />
+              <img src="/images/home/reason5.png" alt="Innovate" className="w-[100px] h-[100px]"/>
             </div>
             <h3 className="text-lg font-semibold mt-4 mb-2 ">Competitions and Challenges</h3>
             <p className="text-base leading-relaxed ">
@@ -64,7 +64,7 @@ export default function WhyUs() {
 
           <div className="relative rounded-2.5xl p-8 pt-10 transition-shadow hover:shadow-xl hover:border-white">
             <div className="flex items-center justify-center">
-              <Image src="/images/home/reason6.png" alt="Innovate" width={100} height={100} />
+              <img src="/images/home/reason6.png" alt="Innovate" className="w-[100px] h-[100px]"/>
             </div>
             <h3 className="text-lg font-semibold mt-4 mb-2 ">Community and Society Impact</h3>
             <p className="text-base leading-relaxed">
